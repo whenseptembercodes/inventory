@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+  
+<header>
+  <div class="text-box">
+    <h1 id="title">HEROES OF DRAGON AGE</h1><hr>
+      <p id="description">Please select the choices that apply to either your canon worldstate or your preferred/favorite <br>
+                          character attributes, playstyle, and romance option in each Dragon Age game.</p>
+  </div>
+</header>
+
+<body>
+    <div class="container">
+      <form id="survey-form" method="GET">
+
+        <div class="wrap">
+         <div class="labels">
+           <label for="dropdown">Race</label>
+         </div>
+        </div>
+        
+          <div class="input-tab">
+            <input type="radio" name="radio-button" value="human">Human
+            <input type="radio" name="radio-button" value="elf">Elf
+            <input type="radio" name="radio-button" value="dwarf">Dwarf<br>
+          </div>
+        
+        <div class="wrap">
+         <div class="labels">
+          <label>Origin</label>
+         </div>
+        </div>
+          
+           <div class="input-tab">
+              <select id="dropdown" name="site">
+                <option disabled value selected>Select an option</option>
+                <option value="cousland">Human Noble</option>
+                <option value="circle">Circle Mage</option>
+                <option value="mahariel">Dalish Elf</option>
+                <option value="tabris">City Elf</option>
+                <option value="brosca">Dwarf Commoner</option>
+                <option value="aeducan">Dwarf Noble</option>  
+              </select>
+          </div>
+        
+        <div class="wrap">
+         <div class="labels">
+          <label for="dropdown">Class</label>
+         </div>
+        </div>  
+          
+            <div class="input-tab">
+              <input type="radio" name="radio-button" value="warrior">Warrior
+              <input type="radio" name="radio-button" value="mage">Mage
+              <input type="radio" name="radio-button" value="rogue">Rogue<br>
+            </div>  
+        
+        <div class="wrap">
+         <div class="labels">
+          <label>Love Interest</label>
+         </div>
+        </div>  
+        
+            <div class="input-tab">
+              <select id="dropdown" name="site">
+                <option disabled value selected>Select an option</option>
+                <option value="leliana">Leliana</option>
+                <option value="alistair">Alistair</option>
+                <option value="morrigan">Morrigan</option>
+                <option value="zevran">Zevran</option>
+              </select>
+            </div>       
+        
+        <div class="btn">
+          <button id="submit" type="submit">Submit</button>
+        </div>
+        
+      </form>
+    </div>
+  
+</body>
+</html>
